@@ -13,6 +13,7 @@ public class MainActivity extends Activity {
 	private Button button1;
 	private EditText text1;
 	private EditText text2;
+	private EditText text3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +21,7 @@ public class MainActivity extends Activity {
         button1 = (Button)findViewById(R.id.button1);
         text1 = (EditText)findViewById(R.id.editText1);
         text2 = (EditText)findViewById(R.id.editText2);
+        text3 = (EditText)findViewById(R.id.editText3);
         button1.setOnClickListener(new OnClickListener(){
 
 			@Override
@@ -27,7 +29,7 @@ public class MainActivity extends Activity {
 				String lowercase = text1.getText().toString();
 				String uppercase = YZ_VehicleTransit_CVS.capitalize(lowercase);
 				text2.setText(uppercase);
-				
+				text3.setText(lowercase.length() + "=>" + uppercase.length());
 			}
         	
         	
