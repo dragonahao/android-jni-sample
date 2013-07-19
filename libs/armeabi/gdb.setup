@@ -1,2 +1,0 @@
-set solib-search-path ./obj/local/armeabi
-directory /home/lookflying/android-ndk-r8e/platforms/android-14/arch-arm/usr/include /home/lookflying/android-ndk-r8e/sources/cxx-stl/stlport/stlport /home/lookflying/android-ndk-r8e/sources/cxx-stl//gabi++/include jni
